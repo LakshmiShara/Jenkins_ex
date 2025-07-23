@@ -18,5 +18,10 @@ pipeline{
                 echo "this is a scanning stage"
             }
         }
+        stage("final stage"){
+            steps{
+                echo "this is a final stage"
+            }
+        }
     }
 }
